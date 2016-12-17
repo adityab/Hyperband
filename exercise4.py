@@ -13,7 +13,7 @@ def run_then_return_val_loss(nepochs, hyperparameters, noiselevel):
 
     xcur = hyperparameters                      # hyperparameter value to be evaluated
     xopt = 0.8                                  # true optimum location on x-axis when infinite number of epochs
-    xshift = 0.2                                # shift of the optimum in the decision space, i.e., x1
+    xshift = 0.8                                # shift of the optimum in the decision space, i.e., x1
     xopt = xopt - xshift/math.sqrt(nepochs)     # denoised suggestion when running for nepochs
 
     yvalue = math.pow( math.fabs(xopt - xcur), 0.5)     # actual objective function = distance to the optimum
