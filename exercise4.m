@@ -4,7 +4,7 @@ function unt()
 close all;
 set(gcf,'color','w');
 
-iscenario = 2;
+iscenario = 3;
 colors = {'red','blue','green','black','magenta','cyan', ...
     [0.4 0.7 0.1],[0.7 0.4 0.1],[0.1 0.4 0.7],[0.7, 0.7, 0]};
 
